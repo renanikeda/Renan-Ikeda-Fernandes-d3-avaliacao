@@ -1,11 +1,9 @@
-﻿
-using System.Text;
-using System.Data;
-using Renan_Ikeda_Fernandes_d3_avaliacao.Models;
+﻿using Renan_Ikeda_Fernandes_d3_avaliacao.Models;
+using Renan_Ikeda_Fernandes_d3_avaliacao.Interfaces;
 
 namespace Renan_Ikeda_Fernandes_d3_avaliacao.Repository
 {
-    internal class Log
+    internal class Log : ILog
     {
         private const string path = "acessos/log.txt";
 

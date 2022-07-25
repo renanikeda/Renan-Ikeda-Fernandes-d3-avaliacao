@@ -1,10 +1,11 @@
 ﻿using System.Collections.Generic;
 using Renan_Ikeda_Fernandes_d3_avaliacao.Models;
+using Renan_Ikeda_Fernandes_d3_avaliacao.Interfaces;
 using System.Data.SqlClient;
 
 namespace Renan_Ikeda_Fernandes_d3_avaliacao.Repository
 {
-    internal class AccessDB
+    internal class AccessDB : IAccessDB
     {
         private readonly string stringConexao = "Data source=LAPTOP-9P1ALKJS\\SQLEXPRESS; initial catalog=User; integrated security=true;";
 
